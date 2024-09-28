@@ -1,0 +1,5 @@
+@function rem($pixels) {
+	@return calc($pixels / 10) + rem;
+}
+
+$content-width: 142rem;

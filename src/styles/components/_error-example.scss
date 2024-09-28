@@ -1,0 +1,17 @@
+.error-example {
+    position: relative;
+    left: 12rem;
+    top: -2.8rem;
+    display: flex;
+    gap: 9rem;
+}
+
+.error-example__mistake {
+    transform: rotate(-7.00deg);
+    border-radius: 5px;
+}
+
+.error-example__data {
+    transform: rotate(6.00deg);
+    border-radius: 5px;
+}

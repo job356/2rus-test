@@ -1,0 +1,17 @@
+.products {
+    display: grid;
+    grid-template-rows: 6.2rem 6.2rem;
+    grid-template-columns: 26.8rem 26.8rem 26.8rem;
+    gap: 1.9rem 4.1rem;
+}
+
+.products__connent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 26.8rem;
+    height: 6.2rem;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+}

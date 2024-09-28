@@ -1,0 +1,58 @@
+.reasons-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card {
+    padding: 17rem 0.6rem 1.4rem;
+    border-radius: 1.4rem;
+    background-repeat: no-repeat;
+    background-size: auto;
+    &_why-not-use-corelDraw {
+        background: linear-gradient(180.00deg, rgba(23, 20, 34, 0),rgba(23, 20, 34, 0.9) 90.172%), url(/src/images/img/not-use-coreldraw.jpeg);
+    }
+    &_team-work {
+        background: linear-gradient(180.00deg, rgba(23, 20, 34, 0),rgba(23, 20, 34, 0.9) 90.172%), url(/src/images/img/team-work.jpeg);
+    }
+    &_insperation-design {
+        background: linear-gradient(180.00deg, rgba(23, 20, 34, 0),rgba(23, 20, 34, 0.9) 90.172%), url(/src/images/img/inspiration-design.jpeg);
+    }
+    &_best-team {
+        background: linear-gradient(180.00deg, rgba(23, 20, 34, 0),rgba(23, 20, 34, 0.9) 90.172%), url(/src/images/img/best-team.jpeg);
+    }
+}
+
+.card__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20.8rem;
+    height: 3.6rem;
+    border: 0.1rem solid rgb(255, 255, 255);
+    border-radius: 2.391rem;
+    box-shadow: 0.191rem 0.191rem 0.957rem 0rem rgba(255, 255, 255, 0.8);
+}
+
+.card__content-text {
+    @include font ($size: 0.9rem, $weight: 700, $height: 140%);
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0.5rem 0 0 1.2rem;
+    >* {
+        @include font ($size: 1.3rem, $weight: 700, $height: 140%)
+    }
+}
+
+.card__content-icon {
+    width: 3.587rem;
+    height: 3.587rem;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+    box-shadow: inset 1.91px 1.91px 2.87px 0px rgba(255, 255, 255, 0.5),1.91px 1.91px 9.57px 0px rgb(223, 80, 23);
+    background: linear-gradient(131.76deg, rgb(223, 80, 23) -2.3%,rgb(249, 203, 116) 104.391%);
+}

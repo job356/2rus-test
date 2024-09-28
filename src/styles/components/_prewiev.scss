@@ -1,0 +1,19 @@
+.prewiev {
+    background-image: url(/src/images/img/Rectangle\ 161123851.png), url(/src/images/img/virtual-reality-scenes.jpeg);
+
+    background-position: left top, right -5.6rem;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+.prewiev-content {
+    max-width: 82rem;
+    padding: 18.1rem 0 29.1rem 0;
+}
+
+.prewiev-content__title {
+    @include font ($size: 5rem, $height: 120%);
+    color: #FFFFFF;
+    margin: 0;
+    text-transform: uppercase;
+}

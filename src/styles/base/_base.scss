@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "Gotham-pro";
+    src: url(/src/styles/font/gothampro.ttf);
+}
+
+html {
+    --refRes: 1920;
+    font-size: calc(100vw / var(--refRes) * 10);
+}
+
+body {
+    font-family: "Gotham-pro", sans-serif;
+}

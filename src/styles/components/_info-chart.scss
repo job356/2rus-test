@@ -1,0 +1,44 @@
+.info-chart {
+    display: flex;
+    align-items: flex-end;
+    align-self: flex-end;
+    padding: 3rem 7.5rem 0 0;
+}
+
+.info-chart__block {
+    position: relative;
+    width: 9.7rem;
+    height: 9.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: inset -4px -4px 6px 0px rgba(255, 255, 255, 0.5),-3px -3px 20px 0px rgba(255, 255, 255, 0.18),10px 10px 20px 0px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(147.75deg, rgb(255, 255, 255) 30.803%,rgb(193, 192, 196) 57.129%,rgb(134, 132, 141) 72.924%,rgb(52, 49, 64) 82.702%);
+    &_pdf {
+        margin: 0 1.9rem;
+    }
+    &_adobe-illustrator {
+        top: 6.4rem;
+        margin-right: 8.7rem;
+    }
+    &_note {
+        top: 6.4rem;
+        margin-left: 8.7rem;
+    }
+}
+
+.layout-2-column {
+    display: flex;
+    gap: 16.6rem;
+    padding: 5.5rem 0 6.2rem;
+}
+
+.layout-3-column {
+    display: flex;
+    gap: 1.8rem;
+}
+
+.layout-3-column__img {
+    border-radius: 1rem;
+}
